@@ -23,6 +23,17 @@ fields:
   description: 'Dimensions: 1200px by 580px'
   config:
     maxSize: '2'
+- name: testing_text_area_added_to_template
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Testing text area added to template
+  description: Here's what I was told to write int he description
+  hidden: false
 - type: field_group
   name: hero_button
   label: Hero Button
