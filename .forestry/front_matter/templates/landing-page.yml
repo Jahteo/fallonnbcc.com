@@ -10,12 +10,12 @@ fields:
   config:
     required: true
 - type: text
-  label: Hero Heading
+  label: Heading inside Hero Image
   name: heading
   default: Belkirk College
 - type: text
   name: sub_heading
-  label: Hero Sub heading
+  label: Sub Heading inside Hero Image
   default: Engineering and Health Sciences
 - type: file
   name: banner_image
