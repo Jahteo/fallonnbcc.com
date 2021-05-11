@@ -8,10 +8,12 @@ services:
 - description: ''
   heading: Connecting through RELATIONSHIPS
   icon: ''
-- description: Performing collaborative research and providing services to support
-    the biotechnology sector.
-  heading: BioTech
-  icon: "/uploads/2017/11/13/biotech.png"
+- description: ''
+  heading: Healing through RECOVERY
+  icon: ''
+- heading: Discipleship through RELEVANT teaching
+  description: ''
+  icon: ''
 sub_heading: ''
 textline: ''
 hero_button:
