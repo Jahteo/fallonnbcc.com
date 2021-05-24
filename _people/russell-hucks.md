@@ -2,8 +2,8 @@
 role:
 - staff
 layout: person
-title: Russell Hucks
-sub_heading: Pastor
+title: Russell & Lourdes Hucks
+sub_heading: Pastoral Care
 thumbnail: "/uploads/2021/05/10/russell_hucks.jpeg"
 email: email@email.com
 linkedin: ''
