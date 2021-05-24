@@ -19,7 +19,7 @@ textline: ''
 hero_button:
   text: ''
   href: ''
-show_news: false
+show_news: true
 show_staff: false
 testing_text_area_added_to_template: ''
 menu:
