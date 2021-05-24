@@ -1,0 +1,9 @@
+---
+footer:
+- url: www.google.com
+  weight: 2
+  title: Give
+navigation:
+- url: www.google.com
+  weight: 4
+  title: Give
