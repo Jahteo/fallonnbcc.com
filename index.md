@@ -1,6 +1,6 @@
 ---
 title: Welcome
-banner_image: "/uploads/2021/05/10/nb_infobanner.jpeg"
+banner_image: "/uploads/2021/05/24/nb_infobanner2.jpeg"
 layout: landing-page
 heading: ''
 services:
@@ -15,6 +15,9 @@ services:
   icon: ''
 show_news: true
 show_staff: false
+sub_heading: ''
+textline: ''
+images: []
 menu:
   navigation:
     identifier: _index
