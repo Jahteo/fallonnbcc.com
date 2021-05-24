@@ -2,30 +2,26 @@
 title: Home
 banner_image: "/uploads/2021/05/10/nb_infobanner.jpeg"
 layout: landing-page
-heading: 'New Beginnings Church '
-partners:
-- "/uploads/2017/11/13/stem.png"
-- "/uploads/2017/11/13/UPenn_logo.png"
-- "/uploads/2017/11/13/nysed.png"
+heading: ''
+partners: []
 services:
-- description: Performing collaborative research and providing services to support
-    the Health Sector.
-  heading: Health
-  icon: "/uploads/2017/11/13/health.png"
-- description: Performing collaborative research and providing services to support
-    the biotechnology sector.
-  heading: BioTech
-  icon: "/uploads/2017/11/13/biotech.png"
-sub_heading: Fallon
-textline: |-
-  New Beginnings
-
-  Ora et Labora
+- description: ''
+  heading: Connecting through RELATIONSHIPS
+  icon: ''
+- description: ''
+  heading: Healing through RECOVERY
+  icon: ''
+- heading: Discipleship through RELEVANT teaching
+  description: ''
+  icon: ''
+sub_heading: ''
+textline: ''
 hero_button:
-  text: Learn more
-  href: "/about"
-show_news: true
+  text: ''
+  href: ''
+show_news: false
 show_staff: false
+testing_text_area_added_to_template: ''
 menu:
   navigation:
     identifier: _index

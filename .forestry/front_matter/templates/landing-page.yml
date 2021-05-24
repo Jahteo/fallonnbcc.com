@@ -10,12 +10,12 @@ fields:
   config:
     required: true
 - type: text
-  label: Hero Heading
+  label: Heading inside Hero Image
   name: heading
   default: Belkirk College
 - type: text
   name: sub_heading
-  label: Hero Sub heading
+  label: Sub Heading inside Hero Image
   default: Engineering and Health Sciences
 - type: file
   name: banner_image
@@ -23,17 +23,6 @@ fields:
   description: 'Dimensions: 1200px by 580px'
   config:
     maxSize: '2'
-- name: testing_text_area_added_to_template
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Testing text area added to template
-  description: Here's what I was told to write int he description
-  hidden: false
 - type: field_group
   name: hero_button
   label: Hero Button
@@ -46,7 +35,7 @@ fields:
     label: Link
 - type: textarea
   name: textline
-  label: Description
+  label: Description under Hero Image
   config:
     wysiwyg: true
     required: false
