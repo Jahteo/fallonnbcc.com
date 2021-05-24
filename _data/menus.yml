@@ -1,9 +1,9 @@
 ---
 footer:
-- url: www.google.com
+- url: https://www.google.com
   weight: 2
   title: Give
 navigation:
-- url: www.google.com
+- url: https://www.google.com
   weight: 4
   title: Give
