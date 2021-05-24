@@ -56,7 +56,7 @@ fields:
   label: Show News?
   description: Enables a news section with a twitter feed & latest posts
 - type: image_gallery
-  name: partners
+  name: images
   label: Row of Images
   description: Provides an optional row of images. Can be logos, pictures, thumbnails,
     slides, etc.
