@@ -12,11 +12,10 @@ fields:
 - type: text
   label: Heading inside Hero Image
   name: heading
-  default: Belkirk College
+  default: New Beginnings
 - type: text
   name: sub_heading
   label: Sub Heading inside Hero Image
-  default: Engineering and Health Sciences
 - type: file
   name: banner_image
   label: Hero Image
