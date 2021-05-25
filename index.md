@@ -15,6 +15,9 @@ services:
   icon: ''
 show_news: true
 show_staff: false
+sub_heading: ''
+textline: ''
+images: []
 menu:
   navigation:
     identifier: _index
