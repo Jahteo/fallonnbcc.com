@@ -60,10 +60,6 @@ fields:
   label: Row of Images
   description: Provides an optional row of images. Can be logos, pictures, thumbnails,
     slides, etc.
-- type: boolean
-  name: show_staff
-  label: Show Staff?
-  description: Enables a staff section that lists each person in the People collection
 - name: layout
   label: Layout
   type: text
