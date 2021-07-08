@@ -23,5 +23,8 @@ New Beginnings Community Church - Fallon is available:
 
 ## Contact Information
 
-[(775) 423-1875](tel:(775) 423-1875 "(775) 423-1875")  
-[newbeginningsfallon@gmail.com](mailto:newbeginningsfallon@gmail.com "newbeginningsfallon@gmail.com") [facebook.com/NewBeginningsChurchFallon](https://facebook.com/NewBeginningsChurchFallon "facebook.com/NewBeginningsChurchFallon")
+[(775) 423-1875](tel:(775) 423-1875 "(775) 423-1875")
+
+[newbeginningsfallon@gmail.com](mailto:newbeginningsfallon@gmail.com "newbeginningsfallon@gmail.com")
+
+[facebook.com/NewBeginningsChurchFallon](https://facebook.com/NewBeginningsChurchFallon "facebook.com/NewBeginningsChurchFallon")
