@@ -2,7 +2,7 @@
 title: Contact
 date: '2017-11-01T03:00:00.000+00:00'
 banner_image: "/uploads/2021/07/08/newbeginnings-brand-banner.jpg"
-heading: Contact New Beginnings Community Church
+heading: ''
 publish_date: '2017-12-01T04:00:00.000+00:00'
 layout: landing-page
 menu:
@@ -22,4 +22,8 @@ New Beginnings Community Church - Fallon is available:
 
 ## Contact Information
 
-{% include address.html %}
+[(775) 423-1875](tel:(775) 423-1875 "(775) 423-1875")
+
+[newbeginningsfallon@gmail.com](mailto:newbeginningsfallon@gmail.com "newbeginningsfallon@gmail.com")
+
+[facebook.com/NewBeginningsChurchFallon](https://facebook.com/NewBeginningsChurchFallon "facebook.com/NewBeginningsChurchFallon")
