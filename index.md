@@ -19,6 +19,9 @@ sub_heading: ''
 textline: ''
 images: []
 menu:
+  footer:
+    weight: 1
+    title: Home
   navigation:
     identifier: _index
     weight: 1
