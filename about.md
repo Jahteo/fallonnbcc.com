@@ -14,7 +14,7 @@ menu:
     weight: 2
   footer:
     identifier: _about
-    weight: 1
+    weight: 2
 
 ---
 <h2> About the church </h2>
