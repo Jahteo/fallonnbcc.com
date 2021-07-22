@@ -83,7 +83,9 @@ h1,h2,h3,h4,h5,h6{line-height:1.4em;font-weight:400}
 /* remove focus outline*/:focus,input:focus,textarea:focus{outline:none}
 a,h1,h2,h3,h4,li,p{-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";opacity:1;transition:opacity .3s ease-in-out}
 .wf-loading a,.wf-loading h1,.wf-loading h2,.wf-loading h3,.wf-loading h4,.wf-loading li,.wf-loading p{-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0}
-#banner{background-position:0 0;background-size:cover;height:28em;text-align:center;position:relative;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;transition:all .7s ease}
+#banner{background-position:0 0;background-size:cover;
+    height:28em;
+    text-align:center;position:relative;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;transition:all .7s ease}
 #banner .container{white-space:nowrap;text-align:left;height:100%;padding:0 16px;padding:0 1rem}
 
 @media screen and (min-width:1100px){
@@ -149,6 +151,8 @@ a,h1,h2,h3,h4,li,p{-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=1
         .main-nav li a{color:#061828;padding:3px 12px;display:inline-block;letter-spacing:1px;transition:color .4s ease}
         .main-nav li a .fa{font-size:10px;vertical-align:top;margin-top:6px;margin-left:5px;margin-right:-10px;width:11px}
         @media (max-width:768px){
+            #banner{height:14em;}
+            section.services{padding:0}
             .main-nav{display:none}}
             .side-nav{margin-top:5px;padding:20px 20px 20px 0}
             .side-nav a{display:block}
