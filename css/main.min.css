@@ -57,6 +57,30 @@
  .flex-control-thumbs img:hover{-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";opacity:1}
  .flex-control-thumbs .flex-active{-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";opacity:1;cursor:default}
 /* ====================================================================================================================
+ * Josh's Custom Stylings
+ * ====================================================================================================================*/
+
+ .roundImg {
+    border-radius: 50% !important;
+}
+/* copied nav here, some can prolly be removed */
+.navigation{margin-bottom:0;margin-left:0;margin-top:20px;list-style-type:none}
+.navigation li{float:left;position:relative;list-style:none}
+.navigation li a{color:#333;font-weight:700;font-size:17px;border-radius:0;padding:2px;display:block;white-space:nowrap;line-height:25px}
+.navigation ul li a{border-radius:0;padding:5px 10px;text-transform:none;text-transform:initial}
+.navigation li>ul{background:#fff;position:absolute;list-style-type:none;top:30px;padding-top:5px!important;margin:0;padding:0;border-radius:0 0 3px 3px;left:0;display:none;min-width:100%;z-index:999;border:1px solid rgba(#8b2004,0.2);border-top:0;top:65px}
+.navigation li:hover>ul{
+   /* display: block;*/list-style:none}
+   .navigation li ul li{display:block;float:none;margin-left:0}
+   .navigation li ul li:last-child{border-radius:0 0 3px 3px;overflow:hidden}
+   .navigation li ul li a{padding:10px 15px}
+   .navigation li ul li a:hover{color:#8b2004;background:#f9f9f9}
+   .navigation li.current>a{color:#8b2004;border-bottom:2px solid #8b2004}
+   .navigation>li>a:hover{color:#8b2004}
+   .navigation li.current>a{font-weight:700}
+   .navigation .second-level{left:100%;top:0}
+
+/* ====================================================================================================================
  * RESPONSIVE
  * ====================================================================================================================*/
  @media screen and (max-width:860px){.flex-direction-nav .flex-prev{-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";opacity:1;left:10px}.flex-direction-nav .flex-next{-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";opacity:1;right:10px}}
@@ -100,7 +124,7 @@ a,h1,h2,h3,h4,li,p{-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=1
     #banner header h2 a:hover{border-bottom-color:transparent}
     #banner header .button{vertical-align:middle;margin-left:1em}
     .site-header{min-height:90px;padding-top:10px;margin:0 auto;background-color:#fff;border-bottom:1px solid rgba(#8b2004,0.1);box-sizing:border-box;overflow:visible}
-    .logo{margin:0}.logo a{margin-top:7px;display:block;width:100px;background-image:url(../img/logo.png);background-repeat:no-repeat;width:143px;background-size:143px;height:56px;text-indent:-9999px;overflow:hidden;float:left}
+    .logo{margin:0}.logo a{margin-top:7px;display:block;width:56px;background-image:url(../img/logo.png);background-repeat:no-repeat;height:56px;text-indent:-9999px;overflow:hidden;float:left}
 
     @media{
         .logo a{background-image:url(../img/logo-retina1.png);background-size:contain}}
@@ -151,11 +175,17 @@ a,h1,h2,h3,h4,li,p{-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=1
         .main-nav li a{color:#061828;padding:3px 12px;display:inline-block;letter-spacing:1px;transition:color .4s ease}
         .main-nav li a .fa{font-size:10px;vertical-align:top;margin-top:6px;margin-left:5px;margin-right:-10px;width:11px}
         @media (max-width:768px){
+            /* MOBILE HERE */
             #banner{height:14em;}
             section.services{padding:0}
             /* .main-nav{display:none}} */
-            .side-nav{margin-top:5px;padding:20px 20px 20px 0}
-            .side-nav a{display:block}
+            /* .side-nav{margin-top:5px;padding:20px 20px 20px 0}
+            .side-nav a{display:block} */
+            .main-nav ul {float:none}
+            .logo{float:none}
+            .site-header {padding-top: 0;}
+
+
             .breadcrumbs{border-top:1px solid #eee;overflow:auto;background:#f8f8f8;margin-bottom:40px}
             .breadcrumbs ul{float:left;margin-top:0}
             .breadcrumbs ul li{line-height:50px;float:left;margin-bottom:0;margin-right:7px;font-size:14px;font-weight:300}
@@ -164,7 +194,7 @@ a,h1,h2,h3,h4,li,p{-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=1
 /* dropdown main nav from http://ermauliks.github.io/2014/04/21/multilevel-navigation-using-jekyll/*/
 .navigation{margin-bottom:0;margin-left:0;margin-top:20px;list-style-type:none}
 .navigation li{float:left;position:relative;list-style:none}
-.navigation li a{color:#333;font-weight:700;font-size:17px;border-radius:0;padding:5px;display:block;white-space:nowrap;line-height:25px}
+.navigation li a{color:#333;font-weight:700;font-size:17px;border-radius:0;padding:2px;display:block;white-space:nowrap;line-height:25px}
 .navigation ul li a{border-radius:0;padding:5px 10px;text-transform:none;text-transform:initial}
 .navigation li>ul{background:#fff;position:absolute;list-style-type:none;top:30px;padding-top:5px!important;margin:0;padding:0;border-radius:0 0 3px 3px;left:0;display:none;min-width:100%;z-index:999;border:1px solid rgba(#8b2004,0.2);border-top:0;top:65px}
 .navigation li:hover>ul{
@@ -173,7 +203,7 @@ a,h1,h2,h3,h4,li,p{-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=1
     .navigation li ul li:last-child{border-radius:0 0 3px 3px;overflow:hidden}
     .navigation li ul li a{padding:10px 15px}
     .navigation li ul li a:hover{color:#8b2004;background:#f9f9f9}
-    .navigation li.current>a{color:#8b2004;border-bottom:2px solid #8b2004}
+    .navigation li.current>a{color:#8b2004;border-bottom:0px solid #8b2004}
     .navigation>li>a:hover{color:#8b2004}
     .navigation li.current>a{font-weight:700}
     .navigation .second-level{left:100%;top:0}

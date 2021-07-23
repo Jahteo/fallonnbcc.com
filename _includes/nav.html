@@ -6,10 +6,10 @@
 
 <header class="site-header">
   <div class="container">
-      <h1 class="logo">
-        <a href="{{ "/" | absolute_url }}">{{ site.name }}</a>
-      </h1>
-      <nav class="main-nav">
+    <nav class="main-nav">
+        <h1 class="logo">
+          <a href="{{ "/" | absolute_url }}">{{ site.name }}</a>
+        </h1>
         <ul class="navigation">
           {% for link in site.menus.navigation %}
           <li class="{% if link.children %}nested {% endif %}{% if url == link.url %}current{% endif %}">
