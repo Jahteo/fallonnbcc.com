@@ -54,5 +54,106 @@
           </li>
         </ul>
     </nav>
+    <!-- {% include text-expand.html %} -->
+
   </div>
 </header>
+
+<!-- attempt from https://bholmes.dev/blog/building-a-sexy-mobile-ready-navbar-in-any-web-framework/  -->
+
+<!-- <header class="site-header">
+  <div class="container">
+    <nav id="main-nav1">
+      <h1 class="logo">
+        <a href="{{ '/'' | absolute_url }}">{{ site.name }}</a>
+      </h1>
+      <button
+        class="mobile-dropdown-toggle"
+        aria-hidden="true"
+        onclick='document.getElementById("main-nav1").classList.toggle("dropdown-opened")'
+      >
+        {% include text-expand.html %}
+      </button>
+      <div class="dropdown-link-container">
+        {% for link in site.menus.navigation %}
+        <a class= "{% if url == link.url %}current{% endif %}" href="{{ link.url | absolute_url }}"{% if link.target %} target="_blank" {% endif %}>
+          {{ link.title }}</a>
+        {% endfor %}
+        <a>
+          <form action="https://www.paypal.com/donate" method="post" target="_top">
+            <input type="hidden" name="hosted_button_id" value="WP264DEXT5J9U" />
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+            <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+          </form>
+        </a>
+      </div>
+    </nav>
+
+  </div>
+</header>
+
+<style>
+  nav {
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.dropdown-link-container > a {
+  margin-left: 20px;
+}
+
+.mobile-dropdown-toggle {
+  display: none;
+}
+@media (max-width: 768px) {
+  .logo, .mobile-dropdown-toggle {
+    z-index: 1;
+  }
+
+  .mobile-dropdown-toggle {
+    display: initial;
+  }
+
+  .dropdown-link-container {
+    z-index: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    height: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    background: lightblue;
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: transform 0.2s, opacity 0.2s;
+  }
+  nav.dropdown-opened > .dropdown-link-container {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+</style> -->
+
+<!-- <script>
+  const navElement = document.getElementById("main-nav1");
+
+  document.addEventListener("click", (event) => {
+    if (event.target.classList.contains("mobile-dropdown-toggle")) {
+      // when we click our button, toggle a CSS class!
+      navElement.classList.toggle("dropdown-opened");
+    }
+  });
+</script> -->
