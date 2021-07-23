@@ -5,6 +5,7 @@ banner_image: "/uploads/2021/07/08/newbeginnings-brand-banner.jpg"
 heading: ''
 publish_date: '2017-12-01T04:00:00.000+00:00'
 layout: landing-page
+textline: ''
 menu:
   footer:
     weight: 3
