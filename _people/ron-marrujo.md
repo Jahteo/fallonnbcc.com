@@ -7,7 +7,6 @@ sub_heading: Worship & Music Care
 thumbnail: "/uploads/2021/05/27/ron-paula.jpg"
 email: rmarrujo53@gmail.com
 facebook: ''
-published: false
 
 ---
 Ron Marrujo was born in Ruidoso, New Mexico and has lived in Fallon, Nevada since 1981. He graduated from Great Basin College in Elko, Nevada with an Associate of Arts degree in 1978, from Bethany University in Santa Cruz, California with a Bachelor of Science degree in Ministerial Studies in 1981, and from the University of Nevada, Reno with a Masters degree in Counseling and Educational Psychology in 1995. He is a long standing Licensed and Ordained Minister with the Assemblies of God.
