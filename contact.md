@@ -11,7 +11,7 @@ menu:
     weight: 3
   navigation:
     identifier: _contact
-    weight: 3
+    weight: 4
 
 ---
 ## Hours of Operation
