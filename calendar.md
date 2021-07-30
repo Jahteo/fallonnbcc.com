@@ -1,10 +1,13 @@
 ---
 title: Calendar
-heading:
-sub_heading:
-banner_image:
+heading: 
+sub_heading: 
+banner_image: 
 textline: ''
 layout: landing-page
+menu:
+  navigation:
+    weight: 3
 
 ---
 # Church Calendar
