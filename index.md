@@ -25,5 +25,6 @@ menu:
   navigation:
     identifier: _index
     weight: 1
+published: false
 
 ---
