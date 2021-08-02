@@ -1,6 +1,6 @@
 ---
 title: Welcome
-banner_image: "/uploads/2021/07/02/copy-of-worship-experience-flyer-3.jpg"
+banner_image: "/uploads/2021/08/02/copy-of-worship-experience-flyer1.jpg"
 layout: landing-page
 heading: ''
 services:
