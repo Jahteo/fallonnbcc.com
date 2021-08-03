@@ -23,6 +23,8 @@ New Beginnings Community Church - Fallon is available:
 
 ## Contact Information
 
+PO Box 2310 Fallon NV 89407
+
 [(775) 423-1875](tel:(775) 423-1875 "(775) 423-1875")
 
 [newbeginningsfallon@gmail.com](mailto:newbeginningsfallon@gmail.com "newbeginningsfallon@gmail.com")
