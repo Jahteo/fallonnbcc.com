@@ -44,14 +44,20 @@
                 </a>
           </li>
           {% endfor %}
-          <!-- <li>
-            <form action="https://www.paypal.com/donate" method="post" target="_top">
-              <input type="hidden" name="hosted_button_id" value="WP264DEXT5J9U" />
-              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-              <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-              </form>
-
-          </li> -->
+          <li>
+            <button
+              class="tithely-give-btn {% if url == link.url %}current{% endif %}"
+              style="background-color: #09135B;font-family: inherit;font-weight: bold;font-size: inherit; padding: 5px 50px; border-radius: 4px; cursor: pointer; background-image: none; color: white; text-shadow: none; display: inline-block; float: none; border: none;"
+              data-church-id="4474399"
+              alt="Donate with Tithe.ly"
+            >
+              Give Online
+            </button>
+            <script src="https://tithe.ly/widget/v3/give.js?3"></script>
+            <script>
+            var tw = create_tithely_widget();
+            </script>
+          </li>
         </ul>
     </nav>
     <!-- {% include text-expand.html %} -->

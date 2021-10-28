@@ -2,6 +2,8 @@
 
 Designed for a new church with simple needs and the ability for clients to easily add content in the future.
 
+Donations set up with tithe.ly for the free pricing tier that meets client needs.
+
 
 # Documentation from demo
 
