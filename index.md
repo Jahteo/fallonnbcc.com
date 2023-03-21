@@ -1,6 +1,6 @@
 ---
 title: Welcome!
-banner_image: "/uploads/2023/03/16/copy-of-online-service-flyer2003.jpg"
+banner_image: "/uploads/2023/03/16/copy-of-church-facebook-banner-2-services.jpg"
 layout: landing-page
 heading: " "
 services:
