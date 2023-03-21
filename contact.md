@@ -19,7 +19,7 @@ menu:
 New Beginnings Community Church - Fallon is available:
 
 * **Monday - Thursday**, 10am to 4pm
-* **Sundays**, 10am to 1pm
+* **Sundays**, 8:30-10:00 am and 10:30-12:00 pm
 
 ## Contact Information
 

@@ -1,8 +1,8 @@
 ---
-title: Welcome
-banner_image: "/uploads/2021/08/03/photo-quality-facebook-ad.jpg"
+title: Welcome!
+banner_image: "/uploads/2023/03/16/copy-of-church-facebook-banner-2-services.jpg"
 layout: landing-page
-heading: ''
+heading: " "
 services:
 - description: ''
   heading: Connecting through RELATIONSHIPS

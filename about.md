@@ -1,7 +1,7 @@
 ---
 title: About Us
 date: '2017-11-01T03:00:00.000+00:00'
-banner_image: "/uploads/2021/07/08/worship-every-sunday.jpeg"
+banner_image: "/uploads/2023/03/16/copy-of-online-service-flyer2003.jpg"
 heading: ''
 layout: landing-page
 textline: We believe in the <a href="https://ag.org/beliefs/statement-of-fundamental-truths"><strong>Assembly
